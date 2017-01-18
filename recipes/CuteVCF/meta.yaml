@@ -1,0 +1,19 @@
+package:
+  name: cutevcf
+  version: "0.2"
+
+source:
+    git_url: git@github.com:Natir/CuteVCF.git
+build:
+
+requirements:
+  build:
+    - qt
+  run:
+    - qt
+
+
+about:
+  home: https://github.com/labsquare/CuteVCF
+  license: FIXME
+  summary: 'simple viewer for variant call format using htslib'
